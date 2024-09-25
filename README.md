@@ -1,6 +1,68 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a weather application built using React. It allows users to get weather information for a specific location by integrating with a weather API.
+
+
+https://github.com/user-attachments/assets/ad6cb698-ea34-4246-84ec-5f64c11237bb
+
+## Getting Started
+
+Follow the instructions below to set up and run the project locally.
+
+### Prerequisites
+
+Ensure you have the following software installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+```
+
+2. Install the required dependencies:
+
+```bash
+npm install
+npm install ajv@latest ajv-keywords@latest
+npm install axios react-loader-spinner @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+The app should now be running on `http://localhost:3000`.
+
+### Project Structure
+
+- `src/`: Contains all the React components and business logic.
+- `public/`: Static assets like images and the `index.html` file.
+- `package.json`: Manages project dependencies and configuration.
+
+### Dependencies
+
+- **React**: A JavaScript library for building interactive user interfaces.
+- **AJV**: A JSON schema validator for validating data.
+- **axios**: A promise-based HTTP client for making API calls to fetch weather data.
+- **react-loader-spinner**: A loader component to show while fetching data.
+- **Font Awesome**: Used for adding icons to the application.
+
+### Features
+
+- Displays current weather information for a specific location.
+- Uses a weather API to fetch real-time data.
+- Loading spinner while fetching weather data.
+- Responsive and visually appealing UI with Font Awesome icons.
+
 
 ## Available Scripts
 
